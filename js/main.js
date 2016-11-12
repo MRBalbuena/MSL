@@ -41,13 +41,6 @@ jQuery(function ($) {
 		var down = true;
 		var pos = '';
 		var downGlobalID, upGlobalId;
-		// setInterval(function(){			
-		//     x = down? x-1: x+1;
-		//     $('#main-slider').css('background-position', '0 ' + x + 'px');
-		// 	pos = $('#main-slider').css('background-position-y');
-		// 	if(pos === '0px') down = true;
-		// 	if(pos === '-1000px') down = false;
-		// }, 100);
 
 		pos = $('#main-slider').css('background-position-y');
 		if (pos === '0px') down = true;
@@ -75,14 +68,3 @@ jQuery(function ($) {
 		if (down) moveDown(pos);
 	});
 });
-
-/*
-var globalID;
-
-function repeatOften() {
-  $("<div />").appendTo("body");
-  globalID = requestAnimationFrame(repeatOften);
-}
-
-  globalID = requestAnimationFrame(repeatOften);
-*/
