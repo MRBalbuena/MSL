@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 body {
   background: #e5e5e5;
-  color: #999;
+  color: #603336;
 }
 h1,
 h2,
@@ -9,7 +9,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #777;
+  color: #603336;
   font-weight: 300;
 }
 a {
@@ -35,8 +35,8 @@ a {
 }
 a:hover,
 a:focus {
-  color: #80c9f1;
-  text-decoration: none;
+  color: #B76368;
+  text-decoration: true;
   outline: none;
 }
 #header {
@@ -48,13 +48,14 @@ a:focus {
   z-index: 99999;
 }
 #main-slider {
-  background-image: url(../images/slider-bg.jpg);
+  /*background-image: url(../images/slider-bg.jpg);*/
+  background-image: url(../images/spainMap.png);
   background-attachment: fixed;
   background-size: cover;
   background-position: 50% 50%;
-  background-repeat: no-repeat;
+  background-repeat:repeat-x;
   padding: 200px 0;
-  color: #fff;
+  color:#603336;
 }
 #main-slider .item {
   -moz-transition: opacity ease-in-out 500ms;
@@ -118,7 +119,7 @@ a:focus {
 #main-slider h1 {
   font-size: 68px;
   text-shadow: 0 3px rgba(0, 0, 0, 0.1);
-  color: #fff;
+  color: #603336;
 }
 #contact .box {
   background-color: #222;
@@ -361,6 +362,9 @@ a:focus {
 .center {
   text-align: center;
 }
+#home{
+  text-align:justify;  
+}
 #team-scroller .designation {
   margin-top: 10px;
   display: block;
@@ -503,6 +507,14 @@ a:focus {
   background-color: #603336;
   color: #fff;
 }
+
+.navbar-default .navbar-nav > li > a {
+    padding: 30px 25px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #603336;
+}
+
 .icon-lg {
   font-size: 48px;
   height: 108px;
